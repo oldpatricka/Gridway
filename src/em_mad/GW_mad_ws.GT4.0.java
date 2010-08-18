@@ -498,6 +498,7 @@ class Service extends Thread {
         
         try
         {
+            job.setDelegationEnabled(true);
             job.submit(factoryEndpoint, false, false, null);
             info = job.getHandle();
         }
