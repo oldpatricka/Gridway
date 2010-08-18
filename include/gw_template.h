@@ -19,7 +19,7 @@
 #define _GW_TEMPLATE_H
 
 #define GW_JT_PATH  512
-#define GW_JT_STR   256
+#define GW_JT_STR   4096
 #define GW_JT_FILES 20
 #define GW_JT_DEPS  50
 
