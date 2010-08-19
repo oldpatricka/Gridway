@@ -62,6 +62,7 @@ char* gw_generate_wrapper_rsl (gw_job_t *job)
             "(executable=\".gw_%s_%i/.wrapper\")"
             "(stdout=\".gw_%s_%i/stdout.wrapper\")"
             "(stderr=\".gw_%s_%i/stderr.wrapper\")"
+            "(maxWallTime=720)" //12 hours
             "(environment=%s)"
             "(count=%d)",
             jobtype,
